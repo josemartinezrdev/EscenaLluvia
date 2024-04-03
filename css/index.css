@@ -5,7 +5,7 @@ body {
 
 #anim {
   width: 100vw;
-  height: 110vh;
+  height: 100vh;
   background: url("../imgs/fondo.jpg") no-repeat;
   position: absolute;
   overflow: hidden;
@@ -53,15 +53,15 @@ body {
 
 #lluvia {
   width: 200px;
-  height: 400px;
+  height: 640%;
   background-image: url("../imgs/lluvia.png");
   background-repeat: no-repeat;
   background-position: 0 320%;
   margin: 65px 0 0 0;
 
   animation-name: animacion-lluvia;
-  animation-duration: 8s;
-  animation-delay: 10s;
+  animation-duration: 5s;
+  animation-delay: 12s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-direction: normal;
